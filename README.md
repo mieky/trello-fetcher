@@ -1,5 +1,7 @@
 # trello-fetcher
 
+[![npm version](https://badge.fury.io/js/trello-fetcher.svg)](http://badge.fury.io/js/trello-fetcher) [![Build Status](https://travis-ci.org/mieky/trello-fetcher.svg?branch=master)](https://travis-ci.org/mieky/trello-fetcher)
+
 A minimal Promise-based wrapper for easy Trello API calls.
 
 Uses [node-fetch](https://github.com/bitinn/node-fetch) for effortless manipulation of requests.
