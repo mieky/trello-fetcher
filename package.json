@@ -12,7 +12,6 @@
   "author": "Mike Arvela <mike@arvela.net>",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.4.7",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
