@@ -68,6 +68,10 @@ fetchTrelloURL(`cards/${card.id}/pos`, {
 });
 ```
 
+## Changelog
+
+- **0.1.0** First release.
+
 ## Acknowledgments
 
 [![chilicorn](chilicorn.png)](http://futurice.com/blog/sponsoring-free-time-open-source-activities)
