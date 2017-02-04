@@ -4,9 +4,11 @@ A minimal Promise-based wrapper for easy Trello API calls.
 
 Uses [node-fetch](https://github.com/bitinn/node-fetch) for effortless manipulation of requests.
 
-Installation:
+Install with:
 
-`npm install --save trello-fetcher`
+```js
+npm install --save trello-fetcher
+```
 
 Requires Node 6+ for ES6 compatibility.
 
