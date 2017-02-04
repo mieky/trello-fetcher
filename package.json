@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "node_modules/righteous-js/lint.js"
   },
   "author": "Mike Arvela <mike@arvela.net>",
   "license": "MIT",

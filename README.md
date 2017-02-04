@@ -2,7 +2,7 @@
 
 A minimal Promise-based wrapper for easy Trello API calls.
 
-Uses [node-fetch](https://github.com/bitinn/node-fetch) and [Bluebird promises](https://github.com/petkaantonov/bluebird/) for easy manipulation of JSON results.
+Uses [node-fetch](https://github.com/bitinn/node-fetch) for effortless manipulation of requests.
 
 Installation:
 
