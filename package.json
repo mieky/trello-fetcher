@@ -1,6 +1,6 @@
 {
   "name": "trello-fetcher",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Promise-based wrapper for easy Trello API calls",
   "author": "Mike Arvela <mike@arvela.net>",
   "license": "MIT",
