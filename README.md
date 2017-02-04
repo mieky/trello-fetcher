@@ -14,7 +14,7 @@ Requires Node 6+ for ES6 compatibility.
 
 Require and create an instance with your Trello key and API token:
 
-```
+```js
 const TrelloFetcher = require("trello-fetcher");
 
 const fetchTrelloURL = new TrelloFetcher({
@@ -31,7 +31,7 @@ You should be able to do pretty much all the operations listed in the Trello API
 
 Get cards in list:
 
-```
+```js
 fetchTrelloURL(`lists/53280b9c3a5a1241b8318206/cards`)
     .then(cards => {
         console.log(`Got ${cards.length} cards:`);
@@ -44,7 +44,7 @@ fetchTrelloURL(`lists/53280b9c3a5a1241b8318206/cards`)
 
 Set a card name:
 
-```
+```js
 fetchTrelloURL(`cards/${card.id}/name`, {
     method: "PUT",
     queryArgs: {
@@ -55,7 +55,7 @@ fetchTrelloURL(`cards/${card.id}/name`, {
 
 Set card position:
 
-```
+```js
 fetchTrelloURL(`cards/${card.id}/pos`, {
     method: "PUT",
     queryArgs: {
@@ -64,7 +64,7 @@ fetchTrelloURL(`cards/${card.id}/pos`, {
 });
 ```
 
-## Acknowledgements
+## Acknowledgments
 
 [![chilicorn](chilicorn.png)](http://futurice.com/blog/sponsoring-free-time-open-source-activities)
 

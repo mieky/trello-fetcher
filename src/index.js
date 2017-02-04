@@ -13,8 +13,8 @@ function TrelloFetcher(defaultOpts) {
             token: opts.token
         });
 
-        const queryArgsStr = Object.keys(queryArgs
-            ).map(key => `${key}=${encodeURI(queryArgs[key])}`).join("&");
+        const queryArgsStr = Object.keys(queryArgs)
+            .map(key => `${key}=${encodeURI(queryArgs[key])}`).join("&");
 
         const queryStr = `https://api.trello.com/1/${partialUrl}?${queryArgsStr}`;
 

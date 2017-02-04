@@ -2,32 +2,29 @@
   "name": "trello-getter",
   "version": "0.1.0",
   "description": "Promise-based wrapper for easy Trello API calls",
-  "bugs": {
-    "url": "https://github.com/mieky/trello-fetcher/issues"
-  },
-  "main": "index.js",
+  "author": "Mike Arvela <mike@arvela.net>",
+  "license": "MIT",
+  "main": "src/index.js",
   "scripts": {
     "lint": "node_modules/righteous-js/lint.js"
   },
-  "author": "Mike Arvela <mike@arvela.net>",
-  "license": "MIT",
+  "config": {
+    "lintTargets": "src/**/*.js"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/righteous-js/.eslintrc.js"
+  },
   "dependencies": {
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
     "righteous-js": "^1.1.1"
   },
-  "eslintConfig": {
-    "extends": "./node_modules/righteous-js/.eslintrc.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mieky/trello-fetcher.git"
   },
-  "config": {
-    "lintTargets": "src/**/*.js"
-  },
-  "scripts": {
-    "lint": "node_modules/righteous-js/lint.js"
+  "bugs": {
+    "url": "https://github.com/mieky/trello-fetcher/issues"
   }
 }
