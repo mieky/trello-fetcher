@@ -21,7 +21,7 @@ function TrelloFetcher(defaultOpts) {
         return fetch(queryStr, opts)
             .then(res => {
                 if (res.status === 401 || res.status === 403) {
-                    throw new Error("Authentication error: did you specify correct KEY and TOKEN?");
+                    throw new Error("Authentication error: did you specify correct key and token?");
                 }
                 return res.json();
             });
