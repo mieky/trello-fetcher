@@ -7,6 +7,10 @@ const fetch = require("node-fetch");
  */
 function TrelloFetcher(defaultOpts) {
     return function fetchTrelloURL(partialUrl, userOpts) {
+        if (!partialUrl) {
+            throw new Error("First argument to fetch() should be a Trello URL fragment");
+        }
+
         const opts = Object.assign({}, defaultOpts, userOpts);
         const queryArgs = Object.assign({}, opts.queryArgs, {
             key: opts.key,
