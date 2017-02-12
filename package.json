@@ -6,18 +6,23 @@
   "license": "MIT",
   "main": "src/index.js",
   "scripts": {
-    "lint": "node_modules/righteous-js/lint.js"
+    "lint": "node_modules/righteous-js/lint.js",
+    "test": "jest"
   },
   "config": {
     "lintTargets": "src/**/*.js"
   },
   "eslintConfig": {
-    "extends": "./node_modules/righteous-js/.eslintrc.js"
+    "extends": "./node_modules/righteous-js/.eslintrc.js",
+    "env": {
+      "jest": true
+    }
   },
   "dependencies": {
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
+    "jest": "^18.1.0",
     "righteous-js": "^1.1.1"
   },
   "repository": {
