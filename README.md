@@ -12,7 +12,7 @@ Install with:
 npm install --save trello-fetcher
 ```
 
-Requires Node 6+ for ES6 compatibility.
+Requires **Node 4.0** or newer.
 
 ## Usage
 
@@ -70,6 +70,7 @@ fetchTrelloURL(`cards/${card.id}/pos`, {
 
 ## Changelog
 
+- **0.2.0** Add support for Node 4.
 - **0.1.0** First release.
 
 ## Acknowledgments
