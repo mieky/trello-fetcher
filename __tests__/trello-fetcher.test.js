@@ -34,6 +34,7 @@ describe("Basic authenticated usage", () => {
             key: TEST_KEY,
             token: TEST_TOKEN
         });
+        expect(1).toBe(1);
         expect(fetchTrelloURL).toBeInstanceOf(Function);
     });
 

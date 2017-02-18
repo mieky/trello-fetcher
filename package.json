@@ -4,9 +4,11 @@
   "description": "Promise-based wrapper for easy Trello API calls",
   "author": "Mike Arvela <mike@arvela.net>",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel --presets=es2015 --out-dir dist src",
     "lint": "node_modules/righteous-js/lint.js",
+    "prepublish": "npm run build",
     "test": "jest"
   },
   "config": {
@@ -22,6 +24,11 @@
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-jest": "^18.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
     "jest": "^18.1.0",
     "righteous-js": "^1.1.1"
   },
